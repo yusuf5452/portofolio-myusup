@@ -80,16 +80,25 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+<section id="hero" class="hero section dark-background">
+  <img src="assets/img/profile1.jpg" alt="" data-aos="fade-in" class="">
 
-      <img src="assets/img/profile1.jpg" alt="" data-aos="fade-in" class="">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <h2>Maulana Yusup</h2>
+    <p>Saya  
+      <span class="typed" data-typed-items="UI/UX Designer, Web Developer, Digital Marketing">Web Developer</span>
+      <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+    </p>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Maulana Yusup</h2>
-        <p>Saya  <span class="typed" data-typed-items="UI/UX Designer, Web Developer, Digital Marketing">Web Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-      </div>
+    <!-- Tombol CV yang dirapihkan -->
+    <div class="mt-3">
+      <a href="assets/cvmaulana.pdf" class="btn btn-primary px-4 py-2" target="_blank" download>
+        <i class="bi bi-download me-2"></i>Download CV
+      </a>
+    </div>
+  </div>
+</section>
 
-    </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -316,14 +325,14 @@ Saya selalu berusaha untuk terus belajar dan mengembangkan kemampuan saya, baik 
 
         <div class="resume-item">
           <h4>SMP</h4>
-          <h5>2019 - 2022</h5>
+          <h5>2020 - 2022</h5>
           <p><em>SMP Yafahi</em></p>
           <p>Berpartisipasi dalam kegiatan ekstrakurikuler komputer dan mulai mengenal dasar-dasar HTML dan desain grafis.</p>
         </div><!-- End Resume Item -->
 
         <div class="resume-item">
           <h4>SMK - Pengembangan Perangkat Lunak Dan Gim (PPLG)</h4>
-          <h5>2022 - 2025</h5>
+          <h5>2023 - 2025</h5>
           <p><em>SMK Negeri 1 Ciomas, Jurusan PPLG</em></p>
           <p>Fokus pada pengembangan perangkat lunak, membangun proyek web, dan mempelajari database, framework, serta manajemen proyek.</p>
         </div><!-- End Resume Item -->
@@ -660,12 +669,13 @@ Terima kasih sudah berkunjung!</p>
 
   <div class="contact-form">
     <h3>Hubungi Saya</h3>
-    <form id="contact-form">
-      <input type="text" name="from_name" placeholder="Nama kamu" required>
-      <input type="email" name="reply_to" placeholder="Email kamu" required>
-      <textarea name="message" rows="5" placeholder="Pesan kamu" required></textarea>
-      <button type="submit">Kirim</button>
-    </form>
+   <form id="contact-form">
+  <input type="text" name="name" placeholder="Nama kamu" required>
+  <input type="email" name="email" placeholder="Email kamu" required>
+  <textarea name="message" placeholder="Pesan kamu" required></textarea>
+  <button type="submit">Kirim</button>
+</form>
+
     <p id="status-message"></p>
   </div>
 </div>
